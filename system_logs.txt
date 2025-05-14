@@ -1,0 +1,123 @@
+May 13 20:03:01 PC-Kah login[380]: pam_unix(login:session): session opened for user kahdeniz(uid=1000) by (uid=0)
+May 13 20:03:01 PC-Kah systemd-logind[168]: New session 1 of user kahdeniz.
+May 13 20:03:01 PC-Kah systemd: pam_unix(systemd-user:session): session opened for user kahdeniz(uid=1000) by (uid=0)
+May 13 20:03:16 PC-Kah sudo: kahdeniz : TTY=pts/0 ; PWD=/home/kahdeniz ; USER=root ; COMMAND=/usr/bin/su
+May 13 20:03:16 PC-Kah sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 13 20:03:16 PC-Kah su: (to root) root on pts/2
+May 13 20:03:16 PC-Kah su: pam_unix(su:session): session opened for user root(uid=0) by kahdeniz(uid=0)
+May 13 20:03:16 PC-Kah systemd-logind[168]: New session c1 of user root.
+May 13 20:03:16 PC-Kah systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+May 13 20:03:19 PC-Kah sudo:     root : TTY=pts/2 ; PWD=/home/kahdeniz ; USER=root ; COMMAND=/usr/bin/apt install git -y
+May 13 20:03:19 PC-Kah sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kahdeniz(uid=0)
+May 13 20:03:20 PC-Kah sudo: pam_unix(sudo:session): session closed for user root
+May 13 20:17:01 PC-Kah CRON[4438]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 13 20:17:01 PC-Kah CRON[4438]: pam_unix(cron:session): session closed for user root
+May 13 20:34:22 PC-Kah su: pam_unix(su:session): session closed for user root
+May 13 20:34:22 PC-Kah sudo: pam_unix(sudo:session): session closed for user root
+May 13 20:34:22 PC-Kah systemd-logind[168]: Session c1 logged out. Waiting for processes to exit.
+May 13 20:34:22 PC-Kah systemd-logind[168]: Removed session c1.
+May 13 20:49:17 PC-Kah systemd-logind[172]: New seat seat0.
+May 13 20:49:18 PC-Kah login[395]: pam_unix(login:session): session opened for user kahdeniz(uid=1000) by (uid=0)
+May 13 20:49:18 PC-Kah systemd-logind[172]: New session 1 of user kahdeniz.
+May 13 20:49:18 PC-Kah systemd: pam_unix(systemd-user:session): session opened for user kahdeniz(uid=1000) by (uid=0)
+May 13 20:49:26 PC-Kah sudo: kahdeniz : TTY=pts/0 ; PWD=/home/kahdeniz ; USER=root ; COMMAND=/usr/bin/su
+May 13 20:49:26 PC-Kah sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 13 20:49:26 PC-Kah su: (to root) root on pts/2
+May 13 20:49:26 PC-Kah su: pam_unix(su:session): session opened for user root(uid=0) by kahdeniz(uid=0)
+May 13 20:49:26 PC-Kah systemd-logind[172]: New session c1 of user root.
+May 13 20:49:26 PC-Kah systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+May 13 20:54:52 PC-Kah su: pam_unix(su:session): session closed for user root
+May 13 20:54:52 PC-Kah sudo: pam_unix(sudo:session): session closed for user root
+May 13 20:54:52 PC-Kah systemd-logind[172]: Session c1 logged out. Waiting for processes to exit.
+May 13 20:54:52 PC-Kah systemd-logind[172]: Removed session c1.
+May 14 15:00:58 PC-Kah systemd-logind[169]: New seat seat0.
+May 14 15:01:00 PC-Kah login[393]: pam_unix(login:session): session opened for user kahdeniz(uid=1000) by (uid=0)
+May 14 15:01:00 PC-Kah systemd-logind[169]: New session 1 of user kahdeniz.
+May 14 15:01:00 PC-Kah systemd: pam_unix(systemd-user:session): session opened for user kahdeniz(uid=1000) by (uid=0)
+May 14 15:01:22 PC-Kah sudo: kahdeniz : TTY=pts/0 ; PWD=/home/kahdeniz ; USER=root ; COMMAND=/usr/bin/su
+May 14 15:01:22 PC-Kah sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 14 15:01:22 PC-Kah su: (to root) root on pts/2
+May 14 15:01:22 PC-Kah su: pam_unix(su:session): session opened for user root(uid=0) by kahdeniz(uid=0)
+May 14 15:01:22 PC-Kah systemd-logind[169]: New session c1 of user root.
+May 14 15:01:22 PC-Kah systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+May 14 15:11:42 PC-Kah su: pam_unix(su:session): session closed for user root
+May 14 15:11:42 PC-Kah sudo: pam_unix(sudo:session): session closed for user root
+May 14 15:11:42 PC-Kah systemd-logind[169]: Session c1 logged out. Waiting for processes to exit.
+May 14 15:11:42 PC-Kah systemd-logind[169]: Removed session c1.
+May 14 15:13:48 PC-Kah sudo: kahdeniz : TTY=pts/0 ; PWD=/home/kahdeniz ; USER=root ; COMMAND=/usr/bin/rm -rf projects/
+May 14 15:13:48 PC-Kah sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 14 15:13:48 PC-Kah sudo: pam_unix(sudo:session): session closed for user root
+May 14 15:14:37 PC-Kah sudo: kahdeniz : TTY=pts/0 ; PWD=/home/kahdeniz ; USER=root ; COMMAND=/usr/bin/rm -rf system_logs.txt meu_ambiente/ aws awscliv2.zip kubectl kubectl.sha256
+May 14 15:14:37 PC-Kah sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 14 15:14:38 PC-Kah sudo: pam_unix(sudo:session): session closed for user root
+May 14 15:15:12 PC-Kah sudo: kahdeniz : TTY=pts/0 ; PWD=/home/kahdeniz ; USER=root ; COMMAND=/usr/bin/rm -rf analise_logs.py analise_logs.py:Zone.Identifier
+May 14 15:15:12 PC-Kah sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 14 15:15:12 PC-Kah sudo: pam_unix(sudo:session): session closed for user root
+May 14 15:15:24 PC-Kah sudo: kahdeniz : TTY=pts/0 ; PWD=/home/kahdeniz ; USER=root ; COMMAND=/usr/bin/rm -rf laboratorio_analise_forense_ubuntu.md laboratorio_analise_forense_ubuntu.md:Zone.Identifier
+May 14 15:15:24 PC-Kah sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 14 15:15:24 PC-Kah sudo: pam_unix(sudo:session): session closed for user root
+May 14 15:17:01 PC-Kah CRON[4440]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 15:17:01 PC-Kah CRON[4440]: pam_unix(cron:session): session closed for user root
+May 14 15:23:21 PC-Kah sudo: kahdeniz : TTY=pts/0 ; PWD=/home/kahdeniz/projects/analise_de_dados_forenses_em_python ; USER=root ; COMMAND=/usr/bin/apt update
+May 14 15:23:21 PC-Kah sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 14 15:23:41 PC-Kah sudo: pam_unix(sudo:session): session closed for user root
+May 14 15:23:41 PC-Kah sudo: kahdeniz : TTY=pts/0 ; PWD=/home/kahdeniz/projects/analise_de_dados_forenses_em_python ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+May 14 15:23:41 PC-Kah sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 14 15:24:07 PC-Kah groupadd[10771]: group added to /etc/group: name=landscape, GID=117
+May 14 15:24:07 PC-Kah groupadd[10771]: group added to /etc/gshadow: name=landscape
+May 14 15:24:07 PC-Kah groupadd[10771]: new group: name=landscape, GID=117
+May 14 15:24:07 PC-Kah useradd[10777]: new user: name=landscape, UID=108, GID=117, home=/var/lib/landscape, shell=/usr/sbin/nologin, from=none
+May 14 15:24:07 PC-Kah usermod[10784]: change user 'landscape' password
+May 14 15:24:07 PC-Kah chage[10791]: changed password expiry for landscape
+May 14 15:24:12 PC-Kah sudo: pam_unix(sudo:session): session closed for user root
+May 14 15:28:11 PC-Kah sudo: kahdeniz : TTY=pts/0 ; PWD=/home/kahdeniz/projects/analise_de_dados_forenses_em_python ; USER=root ; COMMAND=/usr/bin/apt install python3 python3-pip -y
+May 14 15:28:11 PC-Kah sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 14 15:28:14 PC-Kah sudo: pam_unix(sudo:session): session closed for user root
+May 14 15:34:43 PC-Kah sudo: kahdeniz : TTY=pts/0 ; PWD=/home/kahdeniz/projects/analise_de_dados_forenses_em_python ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+May 14 15:34:43 PC-Kah sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 14 15:34:43 PC-Kah sudo: pam_unix(sudo:session): session closed for user root
+May 14 15:35:10 PC-Kah sudo: kahdeniz : TTY=pts/0 ; PWD=/home/kahdeniz/projects/analise_de_dados_forenses_em_python ; USER=root ; COMMAND=/usr/bin/apt install tcpdump -y
+May 14 15:35:10 PC-Kah sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 14 15:35:12 PC-Kah sudo: pam_unix(sudo:session): session closed for user root
+May 14 15:36:39 PC-Kah sudo: kahdeniz : TTY=pts/0 ; PWD=/home/kahdeniz/projects/analise_de_dados_forenses_em_python ; USER=root ; COMMAND=/usr/bin/tcpdump -i eth0 -w network_traffic.pcap
+May 14 15:36:39 PC-Kah sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 14 15:42:56 PC-Kah sudo: pam_unix(sudo:session): session closed for user root
+May 14 15:43:40 PC-Kah sudo: kahdeniz : TTY=pts/0 ; PWD=/home/kahdeniz/projects/analise_de_dados_forenses_em_python ; USER=root ; COMMAND=/usr/bin/tcpdump -i eth0 -w network_traffic.pcap
+May 14 15:43:40 PC-Kah sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 14 15:44:59 PC-Kah sudo: pam_unix(sudo:session): session closed for user root
+May 14 15:48:31 PC-Kah sudo: kahdeniz : TTY=pts/0 ; PWD=/home/kahdeniz/projects/analise_de_dados_forenses_em_python ; USER=root ; COMMAND=/usr/bin/tcpdump -i eth0 -w network_traffic.pcap
+May 14 15:48:31 PC-Kah sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 14 15:50:55 PC-Kah sudo: pam_unix(sudo:session): session closed for user root
+May 14 16:12:27 PC-Kah sudo: kahdeniz : TTY=pts/0 ; PWD=/home/kahdeniz/projects/analise_de_dados_forenses_em_python ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+May 14 16:12:27 PC-Kah sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 14 16:12:27 PC-Kah sudo: pam_unix(sudo:session): session closed for user root
+May 14 16:14:45 PC-Kah sudo: kahdeniz : TTY=pts/0 ; PWD=/home/kahdeniz/projects/analise_de_dados_forenses_em_python ; USER=root ; COMMAND=/usr/bin/apt install openssh-server -y
+May 14 16:14:45 PC-Kah sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 14 16:14:51 PC-Kah useradd[12759]: new user: name=sshd, UID=109, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin, from=none
+May 14 16:14:51 PC-Kah usermod[12766]: change user 'sshd' password
+May 14 16:14:51 PC-Kah chage[12773]: changed password expiry for sshd
+May 14 16:14:52 PC-Kah sshd[12871]: Server listening on 0.0.0.0 port 22.
+May 14 16:14:52 PC-Kah sshd[12871]: Server listening on :: port 22.
+May 14 16:14:53 PC-Kah sudo: pam_unix(sudo:session): session closed for user root
+May 14 16:14:53 PC-Kah sudo: kahdeniz : TTY=pts/0 ; PWD=/home/kahdeniz/projects/analise_de_dados_forenses_em_python ; USER=root ; COMMAND=/usr/sbin/service ssh start
+May 14 16:14:53 PC-Kah sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 14 16:14:54 PC-Kah sudo: pam_unix(sudo:session): session closed for user root
+May 14 16:15:04 PC-Kah sshd[12948]: Invalid user teste from 127.0.0.1 port 44980
+May 14 16:15:19 PC-Kah sshd[12948]: pam_unix(sshd:auth): check pass; user unknown
+May 14 16:15:19 PC-Kah sshd[12948]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+May 14 16:15:21 PC-Kah sshd[12948]: Failed password for invalid user teste from 127.0.0.1 port 44980 ssh2
+May 14 16:15:37 PC-Kah sshd[12948]: pam_unix(sshd:auth): check pass; user unknown
+May 14 16:15:39 PC-Kah sshd[12948]: Failed password for invalid user teste from 127.0.0.1 port 44980 ssh2
+May 14 16:15:45 PC-Kah sshd[12948]: Connection closed by invalid user teste 127.0.0.1 port 44980 [preauth]
+May 14 16:15:45 PC-Kah sshd[12948]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+May 14 16:15:52 PC-Kah sshd[12973]: Invalid user teste from 127.0.0.1 port 56154
+May 14 16:15:54 PC-Kah sshd[12973]: pam_unix(sshd:auth): check pass; user unknown
+May 14 16:15:54 PC-Kah sshd[12973]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+May 14 16:15:56 PC-Kah sshd[12973]: Failed password for invalid user teste from 127.0.0.1 port 56154 ssh2
+May 14 16:16:02 PC-Kah sshd[12973]: pam_unix(sshd:auth): check pass; user unknown
+May 14 16:16:04 PC-Kah sshd[12973]: Failed password for invalid user teste from 127.0.0.1 port 56154 ssh2
+May 14 16:17:03 PC-Kah sshd[12973]: Connection closed by invalid user teste 127.0.0.1 port 56154 [preauth]
+May 14 16:17:03 PC-Kah sshd[12973]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+May 14 16:16:28 PC-Kah sudo: kahdeniz : TTY=pts/0 ; PWD=/home/kahdeniz/projects/analise_de_dados_forenses_em_python ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+May 14 16:16:28 PC-Kah sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 13 14:22:01 localhost sshd[1234]: Failed password for invalid user test from 192.168.0.100 port 22 ssh2
